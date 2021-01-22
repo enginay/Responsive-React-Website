@@ -7,17 +7,18 @@
 
 .home,
 .services,
-.products,
+.projekte,
 .sign-up {
   display: flex;
   height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+
 }
 
 .services {
-  background-image: url('/src/images/img-2.jpg');
+  background-image: url('/src/images/Office.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,7 +26,7 @@
   font-size: 100px;
 }
 
-.products {
+.projekte {
   background-image: url('/src/images/img-1.jpg');
   background-position: center;
   background-size: fill;

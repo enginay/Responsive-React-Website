@@ -11,6 +11,7 @@ function TicketItem(props) {
               className='tickets__item__img'
               alt='Travel Image'
               src={props.src}
+              href={props.href}
             />
           </figure>
           <div className='tickets__item__info'>

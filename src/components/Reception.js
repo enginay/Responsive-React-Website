@@ -7,13 +7,14 @@ import '../App.css';
 function Reception() {
     return (
         <div className="reception-container">
-            {/*<video src='/videos/video-1.mp4' autoPlay loop muted />*/}
+            {<video src='/videos/office.mp4' autoPlay loop muted />}
             <h1>ENGIN AYKAT</h1>
-            <p>about me and my achievements</p>
+            <p>Über mich und meine Referenzen</p>
             <div className='reception-btn'>
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>GET STARTED</Button>
+                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
+                    Direkt zum Lebenslauf <i className='far fa-file-alt'/></Button>
                 <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
-                    WATCH TRAILER<i className='far fa-play-circle'/></Button>
+                    Direkt zu meinen Projekten <i className='fas fa-project-diagram'/></Button>
 
             </div>
         </div>

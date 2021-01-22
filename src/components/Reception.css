@@ -7,7 +7,7 @@ video{
 }
 
 .reception-container{
-   background: url('/src/images/Office.jpg') center center/cover  no-repeat;
+  /* background: url('/src/images/Office.jpg') center center/cover  no-repeat;*/
     height: 100vh;
     width: 100%;
     display: flex;

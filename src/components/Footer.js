@@ -11,7 +11,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Kontaktieren Sie mich direkt
+          So können Sie mich Kontaktieren
         </p>
         {/*<p className='footer-subscription-text'>
           sbhdhgdhgdgd
@@ -25,6 +25,22 @@ function Footer() {
               placeholder='Nachricht Schreiben ...'
             />
             </form>
+            <form>
+            <input
+              className='footer-input'
+              name='name'
+              type='name'
+              placeholder='Name'
+            />
+          </form>
+          <form>
+            <input
+              className='footer-input'
+              name='firma'
+              type='firma'
+              placeholder='Firma'
+            />
+          </form>
           <form>
             <input
               className='footer-input'
