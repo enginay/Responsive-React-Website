@@ -7,7 +7,7 @@ import '../App.css';
 function Reception() {
     return (
         <div className="reception-container">
-            {<video src='/videos/video-1.mp4' autoPlay loop muted />}
+            {/*<video src='/videos/video-1.mp4' autoPlay loop muted />*/}
             <h1>ENGIN AYKAT</h1>
             <p>about me and my achievements</p>
             <div className='reception-btn'>
