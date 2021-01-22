@@ -12,13 +12,13 @@ function Tickets() {
         <div className='tickets__wrapper'>
           <ul className='tickets__items'>
             <TicketItem
-              src='/images/img-9.jpg'
+              src={`${process.env.PUBLIC_URL}/image/img-2.jpg`}
               text='Explore the hidden waterfall deep inside the Amazon Jungle'
               label='Adventure'
               path='/services'
             />
             <TicketItem
-              src='/images/img-2.jpg'
+              src={`${process.env.PUBLIC_URL}/image/img-5.jpg`}
               text='Travel through the Islands of Bali in a Private Cruise'
               label='Luxury'
               path='/services'
@@ -26,19 +26,19 @@ function Tickets() {
           </ul>
           <ul className='tickets__items'>
             <TicketItem
-              src='/images/img-3.jpg'
+            src={`${process.env.PUBLIC_URL}/image/img-6.jpg`}
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
               label='Mystery'
               path='/servicdes'
             />
             <TicketItem
-              src='/images/img-4.jpg'
+              src={`${process.env.PUBLIC_URL}/image/img-7.jpg`}
               text='Experience Football on Top of the Himilayan Mountains'
               label='Adventure'
               path='/projekte'
             />
             <TicketItem
-              src='/images/img-8.jpg'
+              src={`${process.env.PUBLIC_URL}/image/img-8.jpg`}
               text='Ride through the Sahara Desert on a guided camel tour'
               label='Adrenaline'
               path={url}

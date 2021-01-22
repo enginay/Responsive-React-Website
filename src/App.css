@@ -18,7 +18,7 @@
 }
 
 .services {
-  background-image: url('/src/images/Office.jpg');
+  background-image: url("img/Office.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@
 }
 
 .projekte {
-  background-image: url('/src/images/img-1.jpg');
+  background-image: url("img/Office.jpg");
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@
 }
 
 .sign-up {
-  background-image: url('/src/images/img-8.jpg');
+  background-image: url("img/Office.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

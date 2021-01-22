@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function TicketItem(props) {
+  console.log(props.src)
   return (
     <>
       <li className='tickets__item'>
