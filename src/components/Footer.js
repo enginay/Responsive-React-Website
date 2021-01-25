@@ -3,6 +3,7 @@ import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
+
 const instagram = <a href='https://www.instagram.com/' />
 
 
@@ -17,6 +18,7 @@ function Footer() {
           sbhdhgdhgdgd
         </p>*/}
         <div className='input-areas'>
+        <contactForm />
         <form>
               <input
               className='footer-message'
