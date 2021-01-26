@@ -6,6 +6,7 @@ import Home from './components/sides/Home';
 import Services from './components/sides/Services';
 import Projekte from './components/sides/Projekte';
 import SignUp from './components/sides/SignUp';
+import Impressum from './components/sides/Impressum';
 
 
 function App(){
@@ -18,6 +19,7 @@ function App(){
         <Route path='/services' component={Services} />
         <Route path='/projekte' component={Projekte} />
         <Route path='/sign-up' component={SignUp} />
+        <Route path='/impressum' component={Impressum}/>
       </Switch>
     </Router>
     </>

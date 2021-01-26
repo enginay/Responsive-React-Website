@@ -74,6 +74,12 @@
   .menu-icon {
     display: none;
   }
+
+  h5 {
+    color: red;
+    
+    font-family: 'Courier New', Courier, monospace
+  }
   
   @media screen and (max-width: 960px) {
     .NavbarItems {

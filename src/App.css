@@ -8,6 +8,7 @@
 .home,
 .services,
 .projekte,
+.impressum, 
 .sign-up {
   display: flex;
   height: 90vh;
@@ -42,4 +43,31 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.impressum{
+  /*background-image: url("img/Office.jpg"); */
+  /*background-color: lightcoral;*/
+  background-position: center;
+  background-size: 10px 10px;
+  background: border-box red;
+}
+
+#naming{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 20px;
+}
+
+
+#kontaktinformationen{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 16px;
+  text-align: left;
+  width: 160px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
 }
