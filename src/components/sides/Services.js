@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
+import Footer from '../hf/Footer';
 
 export default function Services(){
     return(

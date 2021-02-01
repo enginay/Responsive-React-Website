@@ -1,10 +1,9 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
+import { Button } from '../Button';
 import { Link } from 'react-router-dom';
 
 
-const instagram = <a href='https://www.instagram.com/' />
 
 
 function Footer() {
@@ -97,16 +96,15 @@ function Footer() {
             <div class='social-icons'>
               <Link
                 class='social-icon-link facebook'
-                href="https://de-de.facebook.com/"
+                to={{ pathname: "https://de-de.facebook.com/" }}
                 target='_blank'
                 aria-label='Facebook'
               >
-                <a href="https://de-de.facebook.com/" />
                 <i class='fab fa-facebook-f'/>
               </Link>
               <Link
                 class='social-icon-link instagram'
-                to='/'
+                to={{pathname: "https://www.instagram.com/"}}
                 target='_blank'
                 aria-label='Instagram'
               >
@@ -114,7 +112,7 @@ function Footer() {
               </Link>
               <Link
                 class='social-icon-link xing'
-                to='/'
+                to={{pathname: "https://www.xing.com/"}}
                 target='_blank'
                 aria-label='Xing'
               >
@@ -122,7 +120,7 @@ function Footer() {
               </Link>
               <Link
                 class='social-icon-link gitHub'
-                to='/'
+                to={{pathname: "https://github.com/"}}
                 target='_blank'
                 aria-label='GitHub'
               >
@@ -130,7 +128,7 @@ function Footer() {
               </Link>
               <Link
                 class='social-icon-link linkedin'
-                to='/'
+                to={{pathname: "https://www.linkedin.com/"}}
                 target='_blank'
                 aria-label='LinkedIn'
               >

@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/hf/Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 import Home from './components/sides/Home';
@@ -7,6 +7,8 @@ import Services from './components/sides/Services';
 import Projekte from './components/sides/Projekte';
 import SignUp from './components/sides/SignUp';
 import Impressum from './components/sides/Impressum';
+import Footer from '../src/components/hf/Footer';
+
 
 
 function App(){

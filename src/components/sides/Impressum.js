@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
+import Footer from '../hf/Footer';
 import { Link } from 'react-router-dom';
 
 
@@ -19,9 +19,9 @@ export default function Impressum(){
             <p>66111 Saarbrücken</p>
             <p>Amtsgericht Saarbrücken</p>
         </div>
-        
         </div>
-        <Footer/>
+        <Footer />
+        
         </>
     );
 }
