@@ -6,7 +6,7 @@ function TicketItem(props) {
   return (
     <>
       <li className='tickets__item'>
-        <Link className='tickets__item__link' to={props.path}>
+        <Link className='tickets__item__link' to={props.pathname}>
           <figure className='tickets__item__pic-wrap' data-category={props.label}>
             <img
               className='tickets__item__img'

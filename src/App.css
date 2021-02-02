@@ -28,9 +28,9 @@
 }
 
 .projekte {
-  background-image: url("img/Office.jpg");
+  background-image: url("img/Office2.jpg");
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
@@ -70,4 +70,5 @@
   width: 160px;
   box-sizing: border-box;
   margin-bottom: 16px;
+ 
 }

@@ -7,40 +7,40 @@ function Tickets() {
   let url= 'https://fontawesome.com/icons/connectdevelop?style=brands';
   return (
     <div className='tickets'>
-      <h1>Letzte Projekte</h1>
+      <h1>Aktuelle News</h1>
       <div className='tickets__container'>
         <div className='tickets__wrapper'>
           <ul className='tickets__items'>
             <TicketItem
-              src={`${process.env.PUBLIC_URL}/image/img-2.jpg`}
+              src={`${process.env.PUBLIC_URL}/image/ReactIcon.jpg`}
               text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              label='ReactJs'
+              path='https://hub.packtpub.com/5-reasons-learn-reactjs/'
             />
             <TicketItem
-              src={`${process.env.PUBLIC_URL}/image/img-5.jpg`}
+              src={`${process.env.PUBLIC_URL}/image/angular-symbol-512.png`}
               text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              label='AngularJs'
               path='/services'
             />
           </ul>
           <ul className='tickets__items'>
             <TicketItem
-            src={`${process.env.PUBLIC_URL}/image/img-6.jpg`}
+            src={`${process.env.PUBLIC_URL}/image/bulma-banner.png`}
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/servicdes'
+              label='Bulma Framework-Css'
+              path='/services'
             />
             <TicketItem
-              src={`${process.env.PUBLIC_URL}/image/img-7.jpg`}
+              src={`${process.env.PUBLIC_URL}/image/JavaScript.jpg`}
               text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              label='JavaScript'
               path='/projekte'
             />
             <TicketItem
-              src={`${process.env.PUBLIC_URL}/image/img-8.jpg`}
+              src={`${process.env.PUBLIC_URL}/image/rocket.jpg`}
               text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              label='Rocket Framework-Rust'
               path={url}
             />
           </ul>
