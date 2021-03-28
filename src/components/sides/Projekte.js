@@ -8,7 +8,6 @@ export default function Projekte(){
         <>
         <h1 className='projekte'>Projekte</h1>
         <Footer />
-        
         </>
     );
 }

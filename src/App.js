@@ -8,6 +8,7 @@ import Projekte from './components/sides/Projekte';
 import SignUp from './components/sides/SignUp';
 import Impressum from './components/sides/Impressum';
 import Footer from '../src/components/hf/Footer';
+import ContactForm from './components/mail/contactForm';
 
 
 
@@ -24,6 +25,7 @@ function App(){
         <Route path='/impressum' component={Impressum}/>
       </Switch>
     </Router>
+    <ContactForm/>
     </>
   );
 }

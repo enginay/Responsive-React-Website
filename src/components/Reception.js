@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from './Button';
 import './Reception.css';
 import '../App.css';
+import { Link } from '@material-ui/core';
 
 
 function Reception() {
@@ -14,7 +15,9 @@ function Reception() {
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
                     Direkt zum Lebenslauf <i className='far fa-file-alt'/></Button>
                 <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
-                    Direkt zu meinen Projekten <i className='fas fa-project-diagram'/></Button>
+                            Direkt zu meinen Projekten <i className='fas fa-project-diagram'/>
+                </Button>
+                
 
             </div>
         </div>

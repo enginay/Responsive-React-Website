@@ -1,32 +1,44 @@
-import React from 'react';
-import TextField from '@material-ui/core/TextField';
-import Button from "@material-ui/core/Button";
-import FormControl from "@material-ui/core/FormControl";
-import Grid from "@material-ui/core/Grid";
-function contactForm() {
-    return (
-        <>
-            <FormControl fullWidth={true}>
-                <TextField required label="Full name" variant="filled" id="full-name" name="name" className="form-field" />
-            </FormControl>
-            <FormControl fullWidth={true}>
-                <TextField required label="Email" id="email" name="email" variant="filled" className="form-field" onChange />
-            </FormControl>
-            <FormControl fullWidth={true}>
-                <TextField required label="Nachricht" variant="filled" name="nachricht" multiline={true} rows="10" />
-            </FormControl>
-            <FormControl>
-                <div style={{ padding: 20 }}>
-                    <Grid container spacing={2}>
-                        <div className="form-submit">
-                            <Button variant="contained" color="primary">Submit</Button>
-                        </div>
-                    </Grid>
-                </div>
-        </FormControl>
-        </>
-        
-    )
-}
+import React, { useState } from "react";
 
-export default contactForm
+const ContactForm = () => {
+  const [status, setStatus] = useState("Submit");
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("Senden...");
+    const { name, email, message } = e.target.elements;
+    let details = {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    };
+    let response = await fetch("http://localhost:3000/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=utf-8",
+      },
+      body: JSON.stringify(details),
+    });
+    setStatus("Submit");
+    let result = await response.json();
+    alert(result.status);
+  };
+  return (
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label htmlFor="name">Name:</label>
+        <input type="text" id="name" required />
+      </div>
+      <div>
+        <label htmlFor="email">Email:</label>
+        <input type="email" id="email" required />
+      </div>
+      <div>
+        <label htmlFor="message">Nachricht:</label>
+        <textarea id="message" required />
+      </div>
+      <button type="submit">{status}</button>
+    </form>
+  );
+};
+
+export default ContactForm;
